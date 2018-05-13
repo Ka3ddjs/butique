@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+form { 
+    display: block;
+    margin-top: 0em;
+    background-color:  rgb(177, 115, 86);
+    width: 40%;
+    height: 30%;    
+    margin:0%;
+    
+    
+}
+
+navbar{
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(223, 149, 115);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(240, 222, 222);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.imag{
+    padding:9px 10px; 
+}
+
+/* .fundo{
+    background-color: rgb(201, 76, 76);
+   
+} */
+
+
+
+.img_todo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    /* opacity: 0.5;
+    filter: alpha(opacity=50);  */
+
+
+}
+
+.roda{
+ 
+    padding: 3%;
+    background-color: rgb(223, 149, 115);
+}
+
+.tex_tex{
+    /* background-color: navy; */
+    width: 50%;
+    height:560px;
+    padding: 60px 0px 60px 0px;
+    margin: 2%;
+   
+}
+
+.tex{
+    padding: 0px 0px 0px 30px;
+}
+
+/* .t{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.ul{
+    padding: 8%;
+    background-color: rgb(255, 227, 214);
+    opacity: 0.5%;
+    
+}
